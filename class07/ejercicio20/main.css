@@ -1,0 +1,30 @@
+body {
+  background-color: #ddd;
+  color: #555;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+div {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 30px;
+  padding: 24px;
+  position: relative;
+  width: 440px;
+}
+
+span {
+  border-top: 14px solid transparent;
+  border-right: 14px solid white;
+  border-bottom: 14px solid transparent;
+  border-left: 14px solid transparent;
+  position: absolute;
+  top: 30px;
+  left: -28px;
+  width: 0;
+}
+
+
+
