@@ -1,0 +1,298 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.section-header {
+  background: transparent url("grass.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.section-header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-header h2 {
+  font-size: 20px;
+}
+
+.section-header strong {
+  display: block;
+  font-size: 30px;
+}
+
+
+/* NAVEGACION */
+.nav-main {
+  background-color: #222;
+  padding: 20px 0;
+}
+
+.nav-main h1 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-main ul li a {
+  color: rgba(255,255,255,0.6);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.nav-main ul li a:hover {
+  background-color: rgb(119,203,71);
+  color: rgba(255,255,255,1);
+}
+
+
+
+/* SECTION PROFILES */
+.section-profiles {
+  background-color: #ebf0f1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-profiles li {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-profiles img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.section-profiles h2 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.section-profiles h4 {
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+}
+
+.section-profiles li div {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  display: none;
+  font-size: 13px;
+  border-radius: 4px;
+  text-align: left;
+  padding: 10px 14px;
+  position: absolute;
+  top: 190px;
+}
+
+.section-profiles li div:before {
+  content: "";
+  border-bottom: 6px solid rgba(0,0,0,0.8);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  margin-left: -3px;
+  position: absolute;
+  top: -6px;
+  left: 50%;
+}
+
+.section-profiles li:hover div {
+  display: block;
+}
+
+
+
+/* ABOUT */
+.section-about {
+  background: #5bc500 url("back-about.png") no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 40px 20px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.section-about h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-about h3 {
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 30px 0 10px;
+  text-transform: uppercase;
+}
+
+.section-about ul {
+  font-size: 14px;
+}
+
+.section-contact {
+  background-color: #7f8d8b;
+}
+
+
+
+.section-contact {
+  background-color: #eee;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.section-contact input {
+  color: #222;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  display: block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding: 6px;
+  width: 100%;
+  outline: none;
+}
+
+.section-contact .btn-submit {
+  background-color: #5bc500;
+  color: white;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+
+@media (min-width: 480px) {
+  .section-header {
+    padding: 40px 0;
+  }
+
+  .section-header strong {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-main ul {
+    text-align: center;
+  }
+
+  .nav-main li {
+    display: inline-block;
+  }
+
+  .section-profiles li {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media (min-width: 760px) {
+  .container {
+    margin: 0 auto;
+    width: 760px;
+  }
+
+  .section-header {
+    padding: 140px 0;
+  }
+
+  .section-header h1 {
+    font-size: 80px;
+  }
+
+  .section-header h2,
+  .section-header h2 strong {
+    font-size: 30px;
+  }
+
+  .nav-main h1 {
+    background: url("ico-farm.png") no-repeat left center;
+    background-size: contain;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 34px;
+  }
+
+  .nav-main ul {
+    text-align: right;
+    margin-top: -40px;
+  }
+
+  .section-profiles li {
+    width: 240px;
+  }
+
+  .section-profiles img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .section-profiles h2,
+  .section-profiles h4 {
+    display: inline;
+  }
+
+  .section-about {
+    padding: 100px 0;
+  }
+
+  .section-about ul {
+    font-size: 0;
+    margin-top: 30px;
+  }
+
+  .section-about li {
+    border-left: 2px solid rgba(0,0,0,0.3);
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+    width: 33.3%;
+  }
+
+  .section-about li:first-child {
+    border-left: none;
+  }
+
+  .section-about h3 {
+    border-bottom: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .section-contact input {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
