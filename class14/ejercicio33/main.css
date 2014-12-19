@@ -1,0 +1,175 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.section-header {
+  background: transparent url("grass.jpg") no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.section-header h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.section-header h2 {
+  font-size: 20px;
+}
+
+.section-header strong {
+  display: block;
+  font-size: 30px;
+}
+
+
+/* NAVEGACION */
+.nav-main {
+  background-color: #222;
+  padding: 20px 0;
+}
+
+.nav-main h1 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-main ul li a {
+  color: rgba(255,255,255,0.6);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+}
+
+.nav-main ul li a:hover {
+  background-color: rgb(119,203,71);
+  color: rgba(255,255,255,1);
+}
+
+
+
+/* SECTION PROFILES */
+.section-profiles {
+  background-color: #ebf0f1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-profiles li {
+  margin-bottom: 40px;
+}
+
+.section-profiles img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.section-profiles h2 {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.section-profiles h4 {
+  font-size: 14px;
+  color: rgba(0,0,0,0.6);
+}
+
+
+
+@media (min-width: 480px) {
+  .section-header {
+    padding: 40px 0;
+  }
+
+  .section-header strong {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .nav-main ul {
+    text-align: center;
+  }
+
+  .nav-main li {
+    display: inline-block;
+  }
+
+  .section-profiles li {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 0;
+  }
+}
+
+
+
+@media (min-width: 760px) {
+  .container {
+    margin: 0 auto;
+    width: 760px;
+  }
+
+  .section-header {
+    padding: 140px 0;
+  }
+
+  .section-header h1 {
+    font-size: 80px;
+  }
+
+  .section-header h2,
+  .section-header h2 strong {
+    font-size: 30px;
+  }
+
+  .nav-main h1 {
+    background: url("ico-farm.png") no-repeat left center;
+    background-size: contain;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 34px;
+  }
+
+  .nav-main ul {
+    text-align: right;
+    margin-top: -30px;
+  }
+
+  .section-profiles li {
+    width: 240px;
+  }
+
+  .section-profiles img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .section-profiles h2,
+  .section-profiles h4 {
+    display: inline;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
